@@ -1,0 +1,94 @@
+.team-wrap {
+    padding: 10.2rem 0 13.4rem 0;
+}
+
+.team-wrap__top {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.team-wrap__top h2 {
+    margin-bottom: 1.2rem;
+    color: #231F20
+}
+
+.team-wrap__top p {
+    color: #231F20
+}
+
+.team-wrap__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.team-memeber-box {
+    padding: 2.8rem;
+    border-radius: 2rem;
+    background-color: #fff;
+}
+
+.team-member__img img {
+    border-radius: 50%;
+    border: 4px solid #F6F7F8;
+}
+
+.team-member__img {
+    margin: 0 3.6rem;
+    margin-bottom: 2.8rem;
+}
+
+.team-member__name {
+    text-align: center;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    font-size: 16px;
+    color: #231F20;
+}
+
+.team-member__position {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+
+
+    .team-wrap {
+        padding: 5rem 0 7rem 0;
+    }
+
+    .team-wrap__top {
+        text-align: center;
+        margin-bottom: 2.1rem;
+        padding: 0 1.8rem
+    }
+
+    .team-wrap__top h2 {
+        margin-bottom: 0.8rem;
+    }
+
+    .team-wrap__grid {
+        padding: 0 1.8rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+}
+
+@media screen and (max-width:481px) {
+
+    .team-wrap__top h2 {
+        margin-bottom: 0.8rem;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 27px;
+        text-align: center;
+    }
+
+    .team-wrap__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

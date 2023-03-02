@@ -1,0 +1,271 @@
+.services-accordions .accordion-item {
+    padding: 3.2rem 0;
+    border-top: 1px solid #E4E7F1;
+}
+.all-services.container-inner{
+    margin-bottom: 12.5rem;
+}
+
+.services-accordions .accordion-item button {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+}
+
+.accordion-btn__text {
+    font-size: 24px;
+    line-height: 130%;
+    color: #231F20;
+}
+
+.services-accordions .accordion-item button .down-angle {
+    width: 14px;
+    height: 10px;
+    transition: all 0.25s linear;
+}
+
+.services-accordions .accordion-item button .img-wrap {
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 1px solid #E4E7F1;
+    transition: all 0.25s linear;
+    margin-left: 10rem;
+    margin-left: auto;
+}
+
+.services-accordions .accordion-item.active button .down-angle {
+    transform: rotate(-180deg);
+    filter: invert(100%) grayscale(100%);
+
+}
+
+.services-accordions .accordion-item.active button .img-wrap {
+    background-color: #6BC067;
+}
+
+.services-accordions .accordion-item.active button .accordion-item__icon img {
+    filter: invert(71%) sepia(39%) saturate(505%) hue-rotate(69deg) brightness(87%) contrast(93%);
+}
+
+.services-accordions .accordion-item.active button .accordion-btn__text {
+    color: #6BC067;
+}
+
+/* accordion style begins */
+.accordion {
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #231F20;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.25s linear;
+}
+
+.accordion-item.active button {
+    color: #6BC067
+}
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease-out;
+}
+
+.panel-wrap {
+    padding: 3.2rem 7rem;
+    color: #555555;
+    display: flex;
+    gap: 6rem;
+}
+
+.panel-img {
+    width: 40%;
+}
+
+.panel-img img {
+    height: 100%;
+    max-height: 37rem;
+    border-radius: 1rem;
+
+}
+
+.panel-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.panel-content .text {
+    margin-bottom: 3.2rem;
+}
+
+.panel-content .paragraph {
+    display: flex;
+    gap: 2rem;
+}
+
+.panel-content .paragraph .box-left .text {
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: #6BC067;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F6F7F8;
+}
+
+.panel-content .text-paragraph-two .box-left .text {
+    background-color: #4C94B3;
+}
+
+.panel-content .text-paragraph-two {
+    border-top: 1px solid #E4E7F1;
+    padding-top: 2rem;
+}
+
+.panel-hightlight {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #231F20;
+}
+
+.panel-content .action-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 130%;
+    color: #231F20;
+    cursor: pointer;
+    transition: all 0.25s linear;
+
+}
+
+.panel-content .action-link span {
+    transition: all 0.25s linear;
+}
+
+.panel-content .action-link:active span {
+    transform: translateX(1rem);
+}
+
+.panel-content .action-link:active {
+    color: #6BC067;
+}
+.panel-highlight{
+    font-weight: 600;
+    color: #231F20;
+}
+/* ************************************************************ */
+
+@media screen and (max-width:1034px) {
+    .all-services.container-inner{
+        margin-bottom: 0;
+    }
+    .services-accordions {
+        padding: 0 1.8rem 10rem 1.8rem;
+    }
+
+    .panel-wrap {
+        padding: 2.4rem;
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+
+    .panel-img {
+        width: 100%;
+    }
+
+    .panel-img img {
+        max-height: unset;
+    }
+
+    .panel-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+    }
+}
+
+@media screen and (max-width:481px) {
+    .all-services.container-inner{
+        margin-bottom: 2rem;
+    }
+    .services-accordions .accordion-item {
+        padding: 1.2rem 0;
+        border-top: 1px solid #E4E7F1;
+    }
+
+
+    .services-accordions .accordion-item button {
+        gap: 1.6rem;
+    }
+
+    .accordion-btn__text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: #231F20;
+        flex: 1;
+    }
+
+    .services-accordions .accordion-item button .down-angle {
+        width: 10.5px;
+        height: 7.5px;
+        transition: all 0.25s linear;
+    }
+
+    .services-accordions .accordion-item button .img-wrap {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .services-accordions .accordion-item.active button .down-angle {
+        transform: rotate(-180deg);
+        filter: invert(100%) grayscale(100%);
+
+    }
+
+    .services-accordions .accordion-item.active button .img-wrap {
+        background-color: #6BC067;
+    }
+
+    .services-accordions .accordion-item.active button .accordion-item__icon img {
+        filter: invert(71%) sepia(39%) saturate(505%) hue-rotate(69deg) brightness(87%) contrast(93%);
+    }
+
+    .services-accordions .accordion-item.active button .accordion-btn__text {
+        color: #6BC067;
+    }
+
+    .accordion-item__icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .panel-content p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    p.panel-highlight{
+        font-weight: 600;
+        color: #231F20;
+    }
+}

@@ -1,0 +1,410 @@
+.services-header .nav-wrap {
+    background-color: #fff;
+}
+
+.service-info__wrap {
+    background-color: #fff;
+    padding: 7rem 0 6rem 0;
+    border-radius: 2rem;
+}
+
+.service-info__wrap .title {
+    margin-bottom: 5rem;
+}
+
+.service-info__wrap .subtitle {
+    margin-bottom: 3rem;
+}
+
+.service-info__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.service-info__grid .grid-box {
+    display: flex;
+    gap: 2.2rem;
+    padding: 3rem;
+    background: #F6F7F8;
+    border-radius: 2rem;
+}
+
+.service-info__grid .grid-box__left .img-wrap {
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 100%;
+    background-color: #6BC067;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-info__grid .grid-box__left .img-wrap img {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.service-info__grid .grid-box__left h5 {
+    display: none;
+}
+
+.service-info__grid .grid-box__right-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 160%;
+    color: #231F20;
+    margin-bottom: 2.3rem;
+}
+
+.service-info__grid .grid-box__right-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #555555;
+}
+
+.service-info__grid .grid-box__right .item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #555555;
+    list-style: disc;
+    margin-left: 2rem;
+}
+
+.service-info__grid .grid-box__right ul {
+    margin-top: 2rem;
+}
+
+
+/* tarifs style begins */
+.tarifs-grid {
+    padding: 4.6rem 0;
+    border-top: 1px solid #E4E7F1;
+    margin-top: 6rem;
+
+}
+
+.tarifs-grid .title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    color: #231F20;
+    margin-bottom: 3rem;
+}
+
+.tarifs {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 3px;
+}
+
+.tarif__month {
+    text-align: center;
+    padding: 1.2rem 0;
+    margin-bottom: 6px;
+    background-color: #F5F7F9;
+}
+
+.tarif__info,
+.tarif__bonus {
+    padding: 3rem 2rem;
+    text-align: center;
+    margin-bottom: 1px;
+    background-color: #F5F7F9;
+}
+
+.tarif__info {
+    margin-bottom: 3px;
+}
+
+.tarif-card button {
+    width: 100%;
+    padding: 2.6rem 0;
+    border: none;
+    outline: none;
+    background-color: #6BC067;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #F6F7F8;
+}
+
+
+/* service banner bg style begins */
+.service-banner-bg {
+    background-image: url('../images/services/service-banner-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5.5rem 4.5rem 5.5rem 6.2rem;
+    border-radius: 2rem;
+    position: relative;
+    isolation: isolate;
+    overflow-y: hidden;
+    margin-bottom: 3rem;
+}
+
+.background-img-man {
+    position: absolute;
+    z-index: -1;
+    max-width: 43.2rem;
+    top: 0;
+    left: 48%;
+    transform: translateX(-50%);
+}
+
+.service-banner-bg::after img {
+    width: 100%;
+}
+
+.service-banner-bg__wrap .text {
+    max-width: 31.3rem;
+    color: #fff;
+}
+
+.service-banner-bg__wrap .title {
+    margin-bottom: 1.3rem;
+    color: #fff;
+}
+
+.service-banner-bg .contact-form__right {
+    max-width: 38.3rem;
+}
+
+
+/* last section */
+.services-suggestion {
+    padding: 9rem 0 0 0;
+}
+
+.service-page.services-main {
+    padding: 0;
+    padding-top: 4.6rem;
+}
+
+.service-page .services-main__top {
+    position: static;
+    top: unset;
+    column-gap: 3px;
+    right: unset;
+    left: unset;
+    margin-bottom: 5.3rem;
+}
+
+
+
+
+/* 
+/////////////////////////////////////////////tablet */
+
+@media screen and (max-width: 1024px) {
+    .service-section.breadcrumb {
+        display: none;
+    }
+
+    .service-info__wrap {
+        padding: 11rem 0 5.4rem 0;
+        border-radius: 0;
+    }
+
+    .service-info__wrap .title {
+        margin-bottom: 2.2rem;
+        text-align: center;
+        font-size: 3.2rem;
+        line-height: 2.7rem;
+    }
+
+    .service-info__wrap .subtitle {
+        margin-bottom: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #231F20;
+    }
+
+    .service-info__grid {
+        gap: 1.2rem;
+        padding: 0 1.8rem;
+    }
+
+    .service-info__grid .grid-box {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2.8rem;
+    }
+
+    .service-info__grid .grid-box__left {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem
+    }
+
+    .service-info__grid .grid-box__left h5 {
+        display: block;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 160%;
+        color: #231F20;
+    }
+
+    .service-info__grid .grid-box__right .grid-box__right-title {
+        display: none;
+    }
+
+    .service-info__grid .grid-box__left .img-wrap {
+        width: 3.4rem;
+        height: 3.4rem;
+        border-radius: 100%;
+        background-color: #6BC067;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-info__grid .grid-box__left .img-wrap img {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+    .service-info__grid .grid-box__right-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 160%;
+        color: #231F20;
+        margin-bottom: 2.3rem;
+    }
+
+    .service-info__grid .grid-box__right ul {
+        margin-top: 0;
+    }
+
+
+    /* tarifs style begins */
+    .tarifs-grid {
+        padding: 4rem 1.8rem;
+        margin-top: 4rem;
+    }
+
+    .tarifs-grid .title {
+        margin-bottom: 2rem;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 160%;
+        text-align: center;
+    }
+
+    .tarifs {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 2rem;
+    }
+
+
+    /* service banner bg style begins */
+    .service-banner-bg {
+        justify-content: space-between;
+        align-items: center;
+        padding: 3.6rem 2.4rem 4.6rem 2.4rem;
+        border-radius: 2rem;
+        margin-bottom: 0;
+    }
+
+    .background-img-man {
+        display: none;
+    }
+
+    .service-banner-bg .contact-form__right button {
+        padding: 1.9rem 2.4rem;
+    }
+
+    .service-banner-bg .contact-form__right {
+        max-width: 38.3rem;
+    }
+
+
+    /* last section */
+    .services-suggestion {
+        padding: 3.4rem 0 0 0;
+    }
+
+    .services-suggestion h2 {
+        text-align: center;
+        font-size: 3.2rem;
+        line-height: 3.2rem;
+    }
+
+    .service-page.services-main {
+        padding: 0;
+        padding-top: 2.1rem;
+    }
+
+    .service-page .services_items .wrap .list-items {
+        padding-top: 0;
+    }
+
+}
+
+@media screen and (max-width:481px) {
+    .service-info__wrap .title {
+        font-size: 2.4rem;
+    }
+
+    .service-info__grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 1.2rem;
+        padding: 0 1.8rem;
+    }
+
+    .tarifs-grid .title {
+        margin-bottom: 1rem;
+    }
+
+    .tarifs {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1.6rem;
+    }
+
+    .service-banner-bg {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3.6rem 2.4rem 4.6rem 2.4rem;
+        margin: 0 1.8rem;
+    }
+
+    .service-banner-bg .contact-form__right button {
+        padding: 1.9rem 2.4rem;
+    }
+
+    .service-banner-bg .contact-form__right {
+        max-width: unset;
+        padding: 0 !important;
+    }
+
+    .service-banner-bg__wrap .title {
+        margin-bottom: 1.1rem;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 27px;
+        text-align: center;
+    }
+
+    .service-banner-bg__wrap .text {
+        margin-bottom: 1.8rem;
+        text-align: center;
+        max-width: unset;
+        
+    }
+
+
+}

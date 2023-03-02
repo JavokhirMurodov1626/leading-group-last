@@ -1,0 +1,47 @@
+/* Homepage css style */
+@import url('./typography.css');
+@import url('./base.css');
+@import url('./navbar.css');
+@import url('./hero.css');
+@import url('./partners-section.css');
+@import url('./results-section.css');
+@import url('./steps-progress-section.css');
+@import url('./cases-section.css');
+@import url('./banner.css');
+@import url('./sertificates-section.css');
+@import url('./contact-form.css');
+@import url('./footer.css');
+
+/* Services page css style */
+@import url('./services-header.css');
+@import url('./services-main.css');
+
+/* all Services css style */
+@import url('./all-services.css');
+@import url('./service.css');
+
+/* products page css styles */
+@import url('./products.css');
+
+
+/* product page css styles */
+
+@import url('./product.css');
+
+@import url('./about-us.css');
+
+@import url('./director.css');
+@import url('./team.css');
+@import url('./contact.css');
+
+button {
+    cursor: pointer;
+}
+
+
+.iti__flag {background-image: url("../dist/007b2705c0a8f69dfdf6.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("../dist/9d5328fb490cddd43f66.png");}
+}
+

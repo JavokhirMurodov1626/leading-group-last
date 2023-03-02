@@ -1,0 +1,317 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.cases-section {
+    padding: 13.1rem 0 20rem 0;
+}
+
+.cases-section .wrap {
+    position: relative;
+}
+
+.cases-section .swiper-slide {
+    position: relative;
+    isolation: isolate;
+    background-color: #fff;
+    max-width: 68rem;
+    min-height: 38rem;
+    padding: 3.1rem 3.6rem 3.4rem 3.4rem;
+    border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.cases-section .swiper-slide .title span {
+    color: #4C94B3;
+}
+
+.cases-section .swiper-slide .title {
+    max-width: 45rem;
+    margin-bottom: 4.6rem;
+}
+
+.cases-section .swiper-slide.has-cards .title {
+    margin-bottom: 2.5rem;
+}
+
+.cases-section .swiper-slide__text {
+    color: #555;
+    max-width: 30rem;
+    margin-bottom: 1.6rem;
+}
+
+.cases-section .swiper-slide__text span {
+    font-weight: 700;
+    color: #231F20;
+}
+
+.swiper-slide__subtext {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #231F20;
+    margin-bottom: 5.3rem;
+}
+
+.cases-section .swiper-slide__img-wrap {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.cases-section .swiper-slide.has-cards .swiper-slide__img-wrap {
+    bottom: -7rem;
+}
+
+.cases-section .swiper-slide__img-wrap img {
+    border-bottom-right-radius: 2rem;
+}
+
+
+.btn-secondary {
+    display: inline-block;
+    margin-top: auto;
+    margin-right: auto;
+    padding: 1.4rem 6.7rem 1.6rem 6.7rem;
+    border: 2px solid #6BC067;
+    border-radius: 34px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #231F20;
+    cursor: pointer;
+    -webkit-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+.btn-secondary:hover {
+    background-color: #75D670;
+    border: 2px solid #75D670;
+    color: #Fff;
+}
+
+.btn-secondary:active {
+    background-color: #69C165;
+    border: 2px solid #69C165;
+    color: #fff;
+}
+
+.cases-section .swiper-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 5.8rem;
+}
+
+.cases-section .swiper-card {
+    background: rgba(238, 238, 238, 0.5);
+    -webkit-backdrop-filter: blur(7.5px);
+    backdrop-filter: blur(7.5px);
+    border-radius: 16px;
+    padding: 2rem 3rem;
+    width: 50%;
+}
+
+.cases-section .swiper-card span {
+    font-weight: 700;
+    color: #231F20;
+}
+
+.cases-section .section-top {
+    margin-bottom: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.cases-section .section-top .control-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.cases-section .section-top .control-buttons .control {
+    width: 6rem;
+    height: 6rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 1px solid #E4E7F1;
+    cursor: pointer;
+    -webkit-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+.cases-section .section-top .control-buttons .control:active {
+    background-color: #fff;
+}
+
+.cases-section .section-top .control-buttons .control:hover {
+    background-color: #fff;
+}
+
+.cases-section .section-top .control-buttons .control img {
+    width: 1.4rem;
+    height: 1.6rem;
+}
+
+
+@media screen and (max-width:1024px) {
+    .cases-section {
+        padding: 6rem 0 4rem 2.4rem;
+    }
+
+    .cases-section .section-top {
+        padding-right: 2.4rem;
+    }
+
+
+    .cases-section .mySwiper span.swiper-notification {
+        display: none !important;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+}
+
+
+@media screen and (max-width:481px) {
+    .cases-section {
+        padding: 6rem 1.8rem 4rem 1.8rem;
+    }
+
+    .cases-section .swiper-slide {
+        padding: 2.8rem 2.4rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .cases-section .mySwiper {
+        pointer-events: none;
+    }
+
+    .cases-section .mySwiper * {
+        overflow-y: hidden;
+        pointer-events: auto;
+    }
+
+    .cases-section .section-top {
+        padding-right: 0;
+    }
+
+    .cases-section .section-top .control-buttons {
+        display: none !important;
+    }
+
+    .cases-section .swiper-slide {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .cases-section .swiper-slide .title {
+        max-width: unset;
+        margin-bottom: 2.2rem;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .cases-section .swiper-slide.has-cards .title {
+        margin-bottom: 2.5rem;
+    }
+
+    .cases-section .swiper-slide__text {
+        max-width: unset;
+        margin-bottom: 1.6rem;
+        text-align: center;
+    }
+
+    .swiper-slide__subtext {
+        margin-bottom: 1.6rem;
+    }
+
+    .cases-section .swiper-slide__img-wrap {
+        position: static;
+        bottom: unset;
+        right: unset;
+        z-index: unset;
+        max-height: 25rem;
+        max-width: 15rem;
+        margin-bottom: 6rem;
+    }
+
+
+    .btn-secondary {
+        width: 100%;
+        display: block;
+        margin-top: unset;
+        margin-right: unset;
+    }
+
+    .cases-section .swiper-cards {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 2.2rem;
+    }
+
+    .cases-section .swiper-card {
+        width: 100%;
+    }
+
+    .cases-section .section-top {
+        margin-bottom: 2rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+
+    }
+
+    .cases-section .section-top h2 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 27px;
+        text-align: center;
+        color: #231F20;
+    }
+}

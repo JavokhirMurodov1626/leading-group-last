@@ -1,0 +1,185 @@
+.director-banner {
+    background-image: url('../images/director-banner-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5rem;
+    margin: 0 3rem;
+    min-height: 78.7rem;
+    position: relative;
+    isolation: isolate
+}
+
+.director-img {
+    max-width: 92rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.director-img img {
+    border-radius: 5rem 0 0 5rem;
+}
+
+.director-pen {
+    position: absolute;
+    max-width: 33.4rem;
+    right: 0;
+    bottom: 3rem;
+}
+
+.director-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+    max-width: 44.4rem;
+    position: absolute;
+    bottom: 17.9rem;
+    right: 37.7rem;
+    z-index: 1
+}
+
+.director-text::before {
+    content: '';
+    background: url('../icons/mark.svg');
+    width: 4.2rem;
+    height: 3.2rem;
+    display: block;
+    position: absolute;
+    top: -5rem;
+}
+
+.director-name {
+    max-width: 47.8rem;
+    position: absolute;
+    left: 50%;
+    top: 14.1rem;
+    transform: translateX(-30%)
+}
+
+.director-name-text {
+    font-family: 'Inter-Black';
+    font-weight: 900;
+    font-size: 72.3953px;
+    line-height: 92.5%;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    margin-bottom: 2.3rem;
+}
+
+.director-position {
+    text-transform: uppercase;
+    color: #6BC067;
+}
+
+@media screen and (max-width:1520px) {
+    .director-text {
+        bottom: 20rem;
+        right: 15rem;
+    }
+
+    .director-pen {
+        display: none;
+    }
+
+    .director-name {
+        left: unset;
+        right:13rem;
+        top: 10rem;
+        transform: translateX(0);
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .director-banner {
+        border-radius: 0;
+        margin: 0;
+        min-height: 125rem;
+    }
+
+    .director-img {
+        max-width: 92rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .director-pen {
+        display: none;
+    }
+
+    .director-text {
+        bottom: 8.3rem;
+        right: 15rem;
+
+    }
+
+    .director-text::before {
+        top: 0;
+        left: -6rem;
+    }
+
+    .director-name {
+        right: unset;
+        left: 50%;
+        top: 75rem;
+        transform: translateX(-50%)
+    }
+
+
+    .director-name-text {
+        font-family: 'Inter-Black';
+        font-weight: 900;
+        font-size: 72.3953px;
+        line-height: 92.5%;
+        text-transform: uppercase;
+        color: #F7F7F7;
+        margin-bottom: 2.3rem;
+    }
+
+    .director-position {
+        text-transform: uppercase;
+        color: #6BC067;
+    }
+}
+
+@media screen and (max-width:481px) {
+    .director-banner {
+        min-height: 90rem;
+    }
+
+    .director-text {
+        bottom: 8.3rem;
+        right: 1.8rem;
+        left: 10rem;
+
+    }
+
+    .director-text::before {
+        top: 0;
+        left: -6rem;
+    }
+
+  
+    .director-name-text {
+        font-size: 42px;
+        line-height: 100%;
+        text-align: center;
+        margin-bottom: 1.1rem;
+    }
+
+    .director-position {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .director-name {
+        top: 40rem;
+    }
+
+
+}
