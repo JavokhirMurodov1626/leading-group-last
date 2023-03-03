@@ -118,8 +118,6 @@
 
 .cases-section .swiper-card {
     background: rgba(238, 238, 238, 0.5);
-    -webkit-backdrop-filter: blur(7.5px);
-    backdrop-filter: blur(7.5px);
     border-radius: 16px;
     padding: 2rem 3rem;
     width: 50%;
