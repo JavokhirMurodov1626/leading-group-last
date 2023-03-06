@@ -1,4 +1,4 @@
-.services-header .hero-section-services {
+.hero-section-services {
     background-image: url('../images/services-hero-img.webp');
     background-position: center;
     background-repeat: no-repeat;
@@ -10,24 +10,24 @@
     border-radius: 50px;
 }
 
-.services-header .hero-section-services .title {
+.hero-section-services .title {
     color: #fff;
     margin-bottom: 1.6rem;
 
 }
 
-.services-header .hero-section-services .text {
+.hero-section-services .text {
     font-weight: 500;
     color: #fff;
 }
 
 @media screen and (max-width:1024px) {
-    .services-header .hero-section-services {
+    .hero-section-services {
         background-image: none;
         padding: 9.4rem 3.2rem 2.1rem 3.2rem;
     }
 
-    .services-header .hero-section-services .title {
+    .hero-section-services .title {
         font-weight: 700;
         font-size: 40px;
         line-height: 27px;
@@ -37,7 +37,7 @@
 
     }
 
-    .services-header .hero-section-services .text {
+    .hero-section-services .text {
         font-weight: 500;
         font-size: 24px;
         line-height: 150%;
@@ -47,17 +47,17 @@
 }
 
 @media screen and (max-width:481px) {
-    .services-header .hero-section-services {
+    .hero-section-services {
         padding: 9.4rem 3.2rem 2.1rem 3.2rem;
     }
 
-    .services-header .hero-section-services .title {
+    .hero-section-services .title {
         font-weight: 700;
         font-size: 24px;
         margin-bottom: 0.8rem;
     }
 
-    .services-header .hero-section-services .text {
+    .hero-section-services .text {
         font-size: 16px;
     }
 }

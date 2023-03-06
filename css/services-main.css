@@ -1,6 +1,7 @@
 :root {
     --bezier: cubic-bezier(.3, -0.01, .49, 1)
 }
+
 .services-main {
     padding-top: 15.8rem;
     position: relative;
@@ -34,8 +35,9 @@
     gap: 2.8rem;
     cursor: pointer;
 }
-.services-main .services-tab:hover .services-tab__icon  {
- transform: scale(1.2);
+
+.services-main .services-tab:hover .services-tab__icon {
+    transform: scale(1.2);
 }
 
 .services-main .services-tab:nth-of-type(1) {
@@ -125,10 +127,10 @@
     flex: 1;
 }
 
-
-.services-page-footer {
-    margin-top: 37.2rem;
+.contact-form {
+    margin-bottom: 37.2rem;
 }
+
 
 @media screen and (max-width:1024px) {
     .services-main {
@@ -165,8 +167,8 @@
 
 
     .services_items .list-item .text {
-      font-weight: 600;
-    
+        font-weight: 600;
+
     }
 
     .services_items .title {
@@ -189,6 +191,7 @@
         padding: 0 1.8rem;
         padding-top: 4rem;
     }
+
     .services-tab__icon {
         width: 5rem;
         height: 5rem;
@@ -207,7 +210,8 @@
         font-size: 16px;
         line-height: 130%;
     }
-    .services_items{
+
+    .services_items {
         padding-bottom: 1.6rem;
     }
 }
