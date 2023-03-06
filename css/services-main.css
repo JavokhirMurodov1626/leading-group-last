@@ -127,10 +127,6 @@
     flex: 1;
 }
 
-.contact-form {
-    margin-bottom: 37.2rem;
-}
-
 
 @media screen and (max-width:1024px) {
     .services-main {
