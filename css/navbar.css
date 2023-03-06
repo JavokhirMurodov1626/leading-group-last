@@ -9,8 +9,8 @@ nav {
 .fixed-body {
     overflow: hidden;
 }
-
 .nav-wrap {
+    background-color: #fff;
     transition: all 0.1s linear;
 }
 
@@ -298,7 +298,9 @@ nav .primary-btn:active {
 
 @media screen and (max-width:1024px) {
 
-
+    .header-section .nav-wrap{
+        background-color: transparent;
+    }
     .nav-wrap.fixed-top.active .select__field {
         color: #fff;
     }
@@ -327,10 +329,6 @@ nav .primary-btn:active {
         box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
     }
 
-    .homepage .nav-wrap {
-        background-color: transparent;
-    }
-
     .logo-wrap {
         max-width: 10.7rem;
     }
@@ -347,11 +345,11 @@ nav .primary-btn:active {
         display: none;
     }
 
-    .homepage nav .nav-left .logo-white {
+    .header-section nav .nav-left .logo-white {
         display: block;
     }
 
-    .homepage nav .nav-left .logo-dark {
+    .header-section nav .nav-left .logo-dark {
         display: none;
     }
 
@@ -363,7 +361,7 @@ nav .primary-btn:active {
         color: #fff;
     }
 
-    .homepage nav .select__field {
+    .header-section nav .select__field {
         color: #fff;
     }
 
