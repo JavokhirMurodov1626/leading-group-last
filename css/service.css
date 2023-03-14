@@ -177,6 +177,9 @@
 
 .service-banner-bg .contact-form__right {
     max-width: 38.3rem;
+    background-color:transparent;
+    border-radius: 0;
+    padding: 0;
 }
 
 
@@ -403,7 +406,7 @@
         margin-bottom: 1.8rem;
         text-align: center;
         max-width: unset;
-        
+
     }
 
 
