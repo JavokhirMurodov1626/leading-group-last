@@ -15,7 +15,7 @@ for (let option of options) {
     selectField.firstElementChild.replaceWith(clone);
   });
 }
-
+    
 languageSelect.addEventListener("click", () => {
   selectOptions.classList.toggle("hidden");
   // selectIcon.classList.toggle("rotate");
