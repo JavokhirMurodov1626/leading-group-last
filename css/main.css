@@ -33,7 +33,7 @@
 @import url('./director.css');
 @import url('./team.css');
 @import url('./contact.css');
-
+@import url('./page-404.css');
 button {
     cursor: pointer;
 }

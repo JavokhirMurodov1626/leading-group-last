@@ -1,0 +1,78 @@
+.page-not-found-main{
+    padding:15rem 0;
+}
+.page-404-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-404-inner .icon-wrapper {
+    width: 5.6rem;
+    height: 5.6rem;
+    margin-bottom: 2.4rem;
+}
+
+.page-404-inner .title {
+    margin-bottom: 2.4rem;
+}
+
+.page-404-inner .subtitle {
+    margin-bottom: 4.8rem;
+    font-weight: 500;
+}
+
+.page-404-inner .button-group {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.page-404-inner .button-group .main-page {
+    background-color: #6BC067;
+}
+.page-404-inner .button-group .main-page:hover {
+    background-color: #75D670;
+}
+.page-404-inner .button-group .main-page:active {
+    background-color: #6BC067;
+}
+
+.page-404-inner .button-group .contact-page {
+    border: 1px solid #6BC067;
+    color: #231F20;
+}
+.page-404-inner .button-group .contact-page:hover {
+    background-color: #75D670;
+    color: #fff;
+}
+.page-404-inner .button-group .contact-page:active {
+    background-color: #6BC067;
+}
+
+
+.page-404-inner .button-group .action-btn {
+    min-width: 25rem;
+    display: flex;
+    justify-content: center;
+    transition: all 0.25s linear;
+}
+
+@media screen and (max-width:781px) {
+    .page-404-inner {
+      padding: 2.4rem;
+    }
+    .page-404-inner .button-group {
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+    .page-404-inner .button-group .contact-page {
+       padding: 1.6rem 4.2rem;
+    }
+    .page-404-inner .button-group .main-page {
+       padding: 1.6rem 4.2rem;
+    }
+    .page-404-inner .title {
+       text-align: center;
+    }
+}
